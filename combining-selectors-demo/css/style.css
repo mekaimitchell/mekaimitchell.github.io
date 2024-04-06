@@ -1,0 +1,34 @@
+#navbar{
+         background-color: navajowhite;
+         text-align: center;
+         padding: 24px;
+}
+
+a{
+    
+    text-decoration: none;
+}
+
+p a {
+        color: orange;
+}
+
+p.warning { 
+           color: crimson;
+}
+
+ul{
+    color: green;
+}
+
+li a{
+      color: lime;
+}
+
+ul p a{
+        color: purple;
+}
+
+ul div a{
+          color: lightblue;
+}
