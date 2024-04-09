@@ -1,0 +1,112 @@
+
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+
+#license{ width: 700px;
+          height: 375px;
+          border: 2px solid black;
+          border-radius: 24px;
+          padding: 8px 18px;
+          background-color: lightgray;
+}
+
+content{
+         border: 1px black solid;
+}
+
+
+h1{
+    color: navy;
+    font-weight: bolder;
+    font-size: 48px;
+    margin: 0px;
+    margin-top: 10px;
+    
+}
+
+h4{ 
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: navy;
+    color: white;
+    padding: 8px 75px;   
+    text-align: center;
+
+}
+
+#id-and-expiration span{
+                    color: red;
+                    font-weight: bolder;
+                    
+                    }
+
+#id-and-expiration div{
+                        color: blue;
+                        display: inline-block;
+                       
+}
+
+#address{
+         font-weight: bolder;
+         padding: 15px;
+         text-align: left;
+}
+
+#small-pic{
+            display: inline-block;
+            opacity: 40%;
+}
+
+#data-left, #data-right{
+                         display: inline-block;
+}
+
+
+#signature{
+           font-family: cursive;
+           font-weight: bold;
+           text-align: center;
+           padding-top: 4px;
+}
+
+#data-fields span{
+                   color: red;
+                   font-weight: bold;
+}
+
+#data-fields div{
+                  color: blue;
+}
+
+#right-side{
+             text-align: right;
+             width: 20% ;
+             display: inline-block;
+            }
+
+#small-pic,#data-fields{
+                         display: inline-block;
+}
+
+#left-side {
+                 width: 60%;
+                 display: inline-block;
+}
+
+#donor{
+        color: red;
+        display: inline-block;
+}
+
+#real-id{
+          display: inline-block;
+          background-color: rgb(255, 221, 27);
+          border-radius: 48px;
+          color: white;
+}
