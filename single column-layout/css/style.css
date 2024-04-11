@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+        margin: 0px;
+        font-family: sans-serif;
+}
+
+.single-column {
+                
+
+                /*THE PROPERTIES BELOW ARE INTEGRAL TO CREATING
+                SINGLE COLUMN LAYOUTS */
+
+                width: 50%;
+                min-width: 500px;
+
+                /*
+                     The property below is integral to creating a
+                     right aligned single column layout alongside the two
+                     properties above.
+                 */
+
+                 margin-left: auto;
+
+                 /*
+                 Combining margin-left and margin-right and setting both of their
+                 values to auto will cause the content to center horizontally which
+                 creates our center aligned single column layout and is integral to it.
+                  */
+
+                 margin:auto
+}
+
+.light-container{
+                  background-color: lightpink;
+                  padding: 48px 0px;
+}
+
+.dark-container{
+                 background-color: rgb(110, 1, 110);
+                 padding: 48px 0px;
+                 color: white;
+}
+
