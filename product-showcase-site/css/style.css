@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+        margin: 0px;
+        font-family: sans-serif;
+}
+
+.single-column {
+                 width: 50%;
+                 min-width: 500px;
+                 margin-left: auto;
+                 margin:auto
+}
+
+.top-container{
+                  background-color: black;
+                  padding: 48px 0px;
+                  color: white;
+                  text-align: center;
+}
+
+.middle-container{
+                 background-color: rgb(95, 95, 95);
+                 padding: 48px 0px;
+                 color: white;
+                 text-align: center;
+}
+
+.bottom-container{
+    background-color: rgb(255, 255, 255);
+    padding: 48px 0px;
+    color: black;
+    text-align: center;
+}
