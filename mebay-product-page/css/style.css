@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif; 
+}
+
+#three-columns {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-areas: 
+    left middle sidebar 
+    ;
+}
+
+#left {
+        padding: 12px ;
+    
+}
+
+
+
+#middle {
+    color: black;
+    padding: 24px;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+#sidebar #seller-info-top {
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    padding: 8px;
+    margin-bottom: 12px;
+    }
+
+#sidebar #seller-info-bottom {
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+#header {
+          text-align: center;
+          
+}
+
+#header a{
+            text-decoration: none;
+}
+
+#used {
+    font-weight: bolder;
+}
+
+#price {
+        padding-left: 8px;
+        display: inline-block;
+        font-size: 40px;
+
+}
+
+#buy-blocks h3  {
+             
+    background-color: blue;
+    border-radius: 48px;
+    color: white;
+    padding: 4px;
+    
+}
+
+#buy-blocks h3 a {
+                    color: white;
+                    text-decoration: none;
+}
+
+#buy-blocks h3 a:hover {
+    color: blue;
+    background-color: #eee;
+    border-radius: 6px;
+}
+
+
+
+         
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+suedo-classes we've learned so far:
+:first-child - targets the first child of an element
+:last-child - targets the last child of an element
+:nth-child(#) - replace the hashtag with a whole number or whole number with a "n" attached to it. Targets the child in that position or every nth child of that position
+:hover - targets the hover state of the element it is attached to.
+*/
