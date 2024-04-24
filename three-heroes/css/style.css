@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+#header {
+    background-color: #613700;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.nav a {
+    color: #efefef;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    transition: background-color 0.5s;
+}
+.nav a:hover {
+    background-color: #6e430e;
+}
+
+#footer {
+    text-align: center;
+    color: #efefef;
+    background-color: #111;
+    padding: 10px 0px;
+}
+
+/* Dog Hero */
+#dog-hero {
+    background-image: url(../images/pexels-lum3n-44775-406014.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #683700;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+#dog-hero .container {
+    width: max-content;
+    margin: 0px;
+    padding-bottom: 100px;
+}
+#dog-hero h1 {
+    font-size: 150px;
+    margin: 0px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#dog-hero p {
+    margin: 10px 0px 20px;
+}
+#dog-hero a {
+    margin: 20px;
+    display: block;
+    border: 2px solid #FFC700;
+    padding: 15px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFC700;
+    transition:
+        background-color 0.5s,
+        color 0.5s
+    ;
+}
+#dog-hero a:hover {
+    background-color: #FFC700;
+    color: #111;
+}
+
+
+/* Shark Hero */
+#shark-hero {
+    background-image: url(../images/pexels-george-desipris-726478.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #efefef;
+    display: flex;
+    justify-content: end;
+    text-align: end;
+   
+   
+}
+#shark .container {
+    width: max-content;
+    margin: 0px;
+    padding-bottom: 100px;
+}
+#shark-hero h1 {
+    font-size: 90px;
+    margin: 0px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#shark-hero p {
+    margin: 10px 20px 35px;
+}
+#shark-hero a {
+    margin: 20px;
+    border: 2px solid #0020b1;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #0020b1;
+    transition:
+        background-color 0.5s,
+        color 0.5s
+    ;
+}
+#shark-hero a:hover {
+    background-color: #efefef;
+    color: #0020b1;
+}
+
+
+/* Lion Hero */
+
+#lion-hero {
+    background-image: url(../images/pexels-pixabay-33045.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #efefef;
+    display: flex;
+    justify-content: flex-start;
+   align-items: center;
+   
+   
+}
+#lion .container {
+    width: max-content;
+    margin: 0px;
+    padding-bottom: 100px;
+}
+#lion-hero h1 {
+    font-size: 70px;
+    margin: 0px;
+}
+#lion-hero p {
+    margin: 10px 20px 35px;
+}
+#lion-hero a {
+    margin: 20px;
+    border: 2px solid tan;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: tan;
+    transition:
+        background-color 0.5s,
+        color 0.5s
+    ;
+}
+#lion-hero a:hover {
+    background-color: tan;
+    color: #efefef;
+}

@@ -133,3 +133,50 @@ body{
     background-color: orange;
     color: #efefef;
 }
+
+
+
+
+/* Cat Hero */
+#shark-hero {
+    background-image: url(../images/pexels-george-desipris-726478.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #683700;
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    align-items: end;
+   
+}
+#shark .container {
+    width: max-content;
+    margin: 0px;
+    padding-bottom: 100px;
+}
+#shark-hero h1 {
+    font-size: 150px;
+    margin: 0px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#shark-hero p {
+    margin: 10px 0px 20px;
+}
+#shark-hero a {
+    margin: 20px;
+    display: block;
+    border: 2px solid #FFC700;
+    padding: 15px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFC700;
+    transition:
+        background-color 0.5s,
+        color 0.5s
+    ;
+}
+#cat-hero a:hover {
+    background-color: #FFC700;
+    color: #111;
+}
