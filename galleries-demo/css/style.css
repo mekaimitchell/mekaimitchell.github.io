@@ -17,8 +17,8 @@ h3{
     background-size: cover;
     height: 50vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: right;
+    justify-content: right;
 }
 
 #hero h1{

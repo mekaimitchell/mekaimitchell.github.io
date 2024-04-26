@@ -1,0 +1,111 @@
+*{ 
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: black;
+    color: #efefef;
+    text-align: center;
+}
+
+h2{
+    margin-top: 50px;
+}
+
+#header {
+    background-color: #333333;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.nav a {
+    color: #efefef;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    transition: background-color 0.5s;
+}
+.nav a:hover {
+    background-color: rgb(71, 71, 71);
+    border-radius: 12px;
+}
+
+#footer {
+    text-align: center;
+    color: #efefef;
+    background-color: #111;
+    padding: 10px 0px;
+}
+
+
+
+#portfolio-hero {
+    background-image: url(../images/mm_portfolio_background-01.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #efefef;
+    display: flex;
+    text-align: end;
+
+    
+   
+}
+#portfolio .container {
+    width: max-content;
+    margin-top: 5000px;
+    padding-bottom: 100px;
+}
+#portfolio-hero h1 {
+    font-size: 70px;
+    margin-top: 320px;
+}
+#portfolio-hero p {
+    margin: 10px 20px 35px;
+}
+#portfolio-hero a {
+    margin: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    transition:
+        background-color 0.5s,
+        color 0.5s
+    ;
+}
+#portfolio-hero a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+}
+
+.basic-grid-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+/* extra styles for fun */
+    gap: 24px ;
+    border: 10px solid white;
+    padding: 24px;
+    margin: 50px 150px;
+}
+
+.basic-grid-gallery img{
+    width: 100%;
+}
