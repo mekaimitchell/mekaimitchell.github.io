@@ -1,0 +1,166 @@
+*{ 
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar1 {
+    background: linear-gradient(
+        to bottom,
+        rgb(66, 56, 0),
+        #a17c00
+    );
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar1 a {
+    text-decoration: none;
+    color: rgb(255, 208, 146);
+    padding: 75px;
+}
+
+#navbar1 h1 {
+    width: 200px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+#navbar1 #logo {
+   margin-right: auto;
+}
+
+#navbar1 .cta-button {
+  color: rgb(255, 208, 146);
+  background-color: #413100;
+  border-radius: 36px;
+  padding: 16px 24px;
+  font-size: 20px;
+  font-weight: bold;
+  min-width: 150px;
+  text-align: center;
+  margin-right: 24px;
+
+ }
+
+/*CLIENT 2*/
+
+ #navbar2 {
+    background: linear-gradient(
+        to bottom,
+        rgb(219, 143, 0),
+        #bda000
+    );
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar2 a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar2 h1 {
+    width: 200px;
+    padding: 24px;
+    color: white;
+}
+
+#navbar2 #logo {
+   margin-right: auto;
+}
+
+#navbar2 .cta-button {
+  background-color: white;
+  color:  rgb(219, 143, 0);
+  border-radius: 36px;
+  padding: 16px 24px;
+  font-size: 20px;
+  font-weight: bold;
+  min-width: 150px;
+  text-align: center;
+  margin-right: 24px;
+
+ }
+
+ /*CLIENT 3*/
+
+ #navbar3 {
+    background-color: orange;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar3 a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    padding: 24px;
+}
+
+#navbar3 h1 {
+    padding: 24px;
+    color: black;
+}
+
+#navbar3 #logo {
+   margin-right: auto;
+}
+
+#navbar3 .cta-button {
+  background-color: black;
+  color: orange;
+  border-radius: 36px;
+  padding: 16px 24px;
+  font-size: 20px;
+  font-weight: bold;
+  min-width: 150px;
+  text-align: center;
+  margin-right: 24px;
+
+ }
+
+ 
+
+ #navbar-top{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: orange;
+    background-color: black;
+ }
+
+ #navbar-top a{
+    text-decoration: none;
+    color: white;
+    padding: 12px 36px;
+ }
+
+ #navbar-bottom{
+   background-color: black;
+
+    display: flex;
+    justify-content: space-between ;
+ }
+
+ #navbar-bottom a{
+    text-decoration: none;
+    color: orange;
+    padding: 12px 36px;
+ }
+ 
