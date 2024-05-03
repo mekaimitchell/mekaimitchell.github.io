@@ -1,0 +1,66 @@
+*{ 
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar1 {
+    background-color: tan;
+    color: black;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    border-bottom: 4px solid black;
+}
+
+#navbar1 a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    padding: 5px 15px 35px 15px;
+}
+
+#navbar1 h1 {
+    width: 200px;
+    padding: 1px 850px 10px 25px;
+   
+}
+
+#homepage-hero {
+    background-image: url(../images/pexels-tranmautritam-2215599.jpg);
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.adopt {
+    position: relative;
+}
+
+.adopt .card-content {
+    position: absolute;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #00000033;
+    left: 0px;
+    margin: 0px 24px;
+    padding: 24px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+
+}
+
+#card5:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
