@@ -15,6 +15,7 @@ body{
     align-items: end;
     justify-content: space-between;
     border-bottom: 4px solid black;
+    
 }
 
 #navbar1 a {
@@ -158,3 +159,97 @@ body{
 #fred p{
    padding: 2px 48px 2px 48px;
 }
+
+/*
+Tablet Media Query Breakpoint
+*/
+@media screen and (max-width: 768px) and (min-width:481px) {
+ 
+    #navbar1 h1 {
+         font-size: 60px;
+        padding: 0px 525px 0px 50px;
+     }
+
+     #navbar1 {
+        align-items: center;
+        flex-wrap: wrap; 
+        flex-direction: column;
+    }
+ 
+    
+ }
+ 
+ /*
+ Cellphone Media Query Breakpoint
+ */
+ @media screen and (max-width: 480px) {
+    
+    #navbar1 h1 {
+        font-size: 60px;
+       padding: 0px 800px 0px 0px;
+    }
+
+    #navbar1 {
+       align-items: center;
+       flex-wrap: wrap; 
+       flex-direction: column;
+    }
+
+    #sally{
+        text-align: center;
+        border: 0px black solid;
+        border-radius: 24px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        background-color: rgba(255, 255, 255, 0.400);
+        box-shadow: 4px 4px 4px 8px #00000033;
+    }
+    #sally img{
+        width: 250px;
+        height: 100%;
+    }
+    
+    #sally p{
+       padding: 2px 28px 2px 48px;
+    }
+
+    #fred{
+        text-align: center;
+        border: 0px black solid;
+        border-radius: 24px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        background-color: rgba(255, 255, 255, 0.400);
+        box-shadow: 4px 4px 4px 8px #00000033;
+    }
+    #fred img{
+        width: 250px;
+        height: 100%;
+    }
+    
+    #fred p{
+       padding: 2px 28px 2px 48px;
+    }
+
+    #benji{
+        text-align: center;
+        border: 0px black solid;
+        border-radius: 24px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        background-color: rgba(255, 255, 255, 0.400);
+        box-shadow: 4px 4px 4px 8px #00000033;
+    }
+    #benji img{
+        width: 250px;
+        height: 100%;
+    }
+    
+    #benji p{
+       padding: 2px 28px 2px 48px;
+    }
+
+    
+     
+    
+ }
