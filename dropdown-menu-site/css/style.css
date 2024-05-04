@@ -7,11 +7,12 @@ body{
     font-family: sans-serif;
     background-color: rgb(236, 213, 182);
 }
-
+  
 #navbar1 {
     background-color: tan;
     color: black;
     display: flex;
+    flex-wrap: wrap;
     align-items: end;
     justify-content: space-between;
     border-bottom: 4px solid black;
@@ -171,77 +172,4 @@ body{
         flex-wrap: wrap; 
         flex-direction: column;
     }
- }
- 
- 
- @media screen and (max-width: 480px) {
-    
-    #navbar1 h1 {
-        font-size: 60px;
-       padding: 0px 800px 0px 0px;
-    }
-
-    #navbar1 {
-       align-items: center;
-       flex-wrap: wrap; 
-       flex-direction: column;
-    }
-
-    #sally{
-        text-align: center;
-        border: 0px black solid;
-        border-radius: 24px;
-        margin-top: 50px;
-        margin-bottom: 100px;
-        background-color: rgba(255, 255, 255, 0.400);
-        box-shadow: 4px 4px 4px 8px #00000033;
-    }
-    #sally img{
-        width: 250px;
-        height: 100%;
-    }
-    
-    #sally p{
-       padding: 2px 28px 2px 48px;
-    }
-
-    #fred{
-        text-align: center;
-        border: 0px black solid;
-        border-radius: 24px;
-        margin-top: 50px;
-        margin-bottom: 100px;
-        background-color: rgba(255, 255, 255, 0.400);
-        box-shadow: 4px 4px 4px 8px #00000033;
-    }
-    #fred img{
-        width: 250px;
-        height: 100%;
-    }
-    
-    #fred p{
-       padding: 2px 28px 2px 48px;
-    }
-
-    #benji{
-        text-align: center;
-        border: 0px black solid;
-        border-radius: 24px;
-        margin-top: 50px;
-        margin-bottom: 100px;
-        background-color: rgba(255, 255, 255, 0.400);
-        box-shadow: 4px 4px 4px 8px #00000033;
-    }
-    #benji img{
-        width: 250px;
-        height: 100%;
-    }
-    
-    #benji p{
-       padding: 2px 28px 2px 48px;
-    }
-
-    
-     
-    
  }
