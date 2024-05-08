@@ -20,6 +20,10 @@ body{
     position: sticky;
     top: 0px;
     box-shadow: 0px 10px 30px rgb(95, 95, 95);
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
 }
 
 #navbar a {
@@ -27,6 +31,22 @@ body{
     color: #226030;
     font-weight: bolder;
     padding: 24px;
+}
+
+#navbar a:hover {
+    text-decoration: none;
+    color: #226030;
+    font-weight: bolder;
+    padding: 24px;
+    transform: translateY(-5px);
+    transition: 
+    background-color 0.5s,
+    box-shadow 0.5s,
+    transform 0.5s;
+}
+
+#navbar .cta-button:hover{
+    color:  #A3BF23;
 }
 
 #navbar img {
