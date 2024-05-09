@@ -1,0 +1,64 @@
+*{ 
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #7e7e7e;
+}
+
+
+.single-column {
+        width: 50%;
+        min-width: 500px;
+        margin-left: auto;
+        margin:auto;
+        text-align: center;
+        
+}
+
+.single-column h2{
+    font-size: 95px;
+}
+
+.single-column h3{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#teams{
+    display: flex;
+    justify-content: center;
+}
+
+#teams h2{
+    padding-top: 115px;
+    padding-left: 115px;
+    padding-right: 130px;
+}
+
+#teams #sf h2, #kc h2{
+    font-size: 35px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.single-column h4{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 55px;
+}
+
+#cta-button a{
+    font-size: 40px;
+    text-decoration: none;
+    border: 5px solid black;
+    padding: 20px;
+    margin: 0px 10px ;
+    color: black;
+}
+
+#cta-button a:hover{
+    background-color: white;
+}
