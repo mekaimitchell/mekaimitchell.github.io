@@ -40,9 +40,9 @@ body{
     padding: 24px;
     transform: translateY(-5px);
     transition: 
-    background-color 0.5s,
-    box-shadow 0.5s,
-    transform 0.5s;
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
 }
 
 #navbar .cta-button:hover{
@@ -184,4 +184,116 @@ body{
     color: #226030;
     background-color:  #7f990b;
     padding: 10px 0px;
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#main-section {
+    background: 
+        radial-gradient(at top left, #ffffff, #f1ffb0, white);
+    padding: 48px;
+}
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+
+.side-by-side .image-container {
+    flex: 1;
+}
+
+.side-by-side .text-container {
+    flex: 1;
+    padding: 36px;
+}
+
+.side-by-side .image-container img {
+    width: 100%;
+    border: 0px;
+    border-radius: 60px;
+}
+
+.side-by-side .text-container h3 {
+    font-size: 48px;
+}
+
+
+
+.side-by-side .text-container a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color:#226030;
+    color: white;
+    padding: 24px 48px;
+    border-radius: 48px;
+}
+
+
+.menu-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+
+#card-section {
+    background-color:#A3BF23;
+    color:#A3BF23;
+    padding: 48px;
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr ;
+    grid-template-areas:
+     "one two three"
+     "four five six"
+     "seven eight nine";
+}
+
+
+.menu-card {
+    flex: 1;
+    border: 3px solid#226030;
+    background-color:#226030 ;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+
+.menu-card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.menu-card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+
+#card-section a{
+    text-decoration: none;
+    color: #A3BF23;
+}
+
+#card-section a:hover{
+    text-decoration: none;
+    color: #A3BF23;
+    transform: translateY(-5px);
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
 }
