@@ -288,6 +288,14 @@ body{
     
 }
 
+#card-section img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+
+
 @media screen and (min-width: 750px) and (max-width: 1100px) {
     
     #navbar {
