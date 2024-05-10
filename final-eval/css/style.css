@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Secular+One&display=swap');
+
 *{ 
     box-sizing: border-box;
 }
 
+
 body{
     margin: 0px;
-    font-family: sans-serif;
+    font-family:'Secular One', sans-serif;
     background-color: #7e7e7e;
 }
 
@@ -20,6 +23,7 @@ body{
 
 .single-column h2{
     font-size: 95px;
+    font-family:'Assistant', sans-serif
 }
 
 .single-column h3{
@@ -55,10 +59,18 @@ body{
     text-decoration: none;
     border: 5px solid black;
     padding: 20px;
-    margin: 0px 10px ;
+    margin: 0px 5px ;
     color: black;
 }
 
 #cta-button a:hover{
     background-color: white;
+}
+
+@media screen and (min-width: 480px) {
+    
+  #teams{
+    background-color: green;
+  }
+    
 }
